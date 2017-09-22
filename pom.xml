@@ -16,8 +16,7 @@
     limitations under the License.
 
 -->
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.basepom</groupId>
@@ -27,7 +26,7 @@
 
   <groupId>io.syndesis</groupId>
   <artifactId>dummy-maven-project</artifactId>
-  <version>0.6-SNAPSHOT</version>
+  <version>0.6</version>
   <packaging>jar</packaging>
   <name>Syndesis :: Dummy Maven Project</name>
 
@@ -61,7 +60,7 @@
     <developerConnection>scm:git:git@github.com:syndesisio/dummy-maven-project.git
     </developerConnection>
     <url>http://github.com/syndesisio/dummy-maven-project/</url>
-    <tag>${project.version}</tag>
+    <tag>dummy-maven-project-0.6</tag>
   </scm>
 
   <distributionManagement>
